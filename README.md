@@ -72,7 +72,7 @@ microchains owned by a single wallet.
 # Make sure to compile the Linera binaries and add them in the $PATH.
 # cargo build -p linera-storage-service -p linera-service --bins
 export PATH="$PWD/target/debug:$PATH"
-
+...
 # Import the optional helper function `linera_spawn`.
 source /dev/stdin <<<"$(linera net helper 2>/dev/null)"
 
